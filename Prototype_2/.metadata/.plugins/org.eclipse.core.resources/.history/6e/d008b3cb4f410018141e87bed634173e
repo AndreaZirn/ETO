@@ -1,0 +1,18 @@
+<%@ include file="/init.jsp" %>
+
+<p>
+	<b>Meine Projekte</b>
+</p>
+
+<aui:button-row>
+		<aui:button name="Projekt Müller" type="submit" value="mueller"  />
+		<aui:button name="Projekt Meier" type="button" value="meier" />
+</aui:button-row>
+
+<p>
+	<b>Meine Aufgaben</b>
+</p>
+
+<p>
+	<b>Letzte Aktivitäten</b>
+</p>

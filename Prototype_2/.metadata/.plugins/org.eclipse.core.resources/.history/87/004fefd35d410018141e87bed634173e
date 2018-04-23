@@ -1,0 +1,27 @@
+<%@ include file="/init.jsp" %>
+
+<header>
+		<b>Projekt Müller</b>
+</header>
+
+<nav>
+	<aui:button-row>
+				<aui:button type="button" value="Dashboard"  />
+				<aui:button type="button" value="Projektübersicht" />
+				<aui:button type="button" value="Termine" />
+				<aui:button type="button" value="Änderungen" />
+				<aui:button type="button" value="Dokumente" />
+				<aui:button type="button" value="Aufgaben" />
+				<aui:button type="button" value="Projektorganisation" />
+				<aui:button type="button" value="Finanzen" />
+				<aui:button type="button" value="Nachrichten" />
+				<aui:button type="button" value="Data Mining" />
+	</aui:button-row>
+</nav>
+<section>
+</section>
+<footer>
+	<div>
+	
+	</div>
+</footer>

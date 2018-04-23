@@ -1,0 +1,4 @@
+Bundle-Name: Settings
+Bundle-SymbolicName: com.liferay.docs.settings.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.docs.settings.portlet.constants

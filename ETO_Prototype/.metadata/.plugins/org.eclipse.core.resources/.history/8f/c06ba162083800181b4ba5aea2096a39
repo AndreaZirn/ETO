@@ -1,0 +1,13 @@
+<%@ include file="/init.jsp" %>
+
+<!--Portlet URL-->
+<portlet:renderURL var="addEntryURL">
+    <portlet:param name="mvcPath" value="/edit_entry.jsp"></portlet:param>
+</portlet:renderURL>
+
+<!--View -->
+<aui:button-row>
+    <aui:button onClick="<%= addEntryURL.toString() %>" value="Neuer Eintrag"></aui:button>
+</aui:button-row>
+
+

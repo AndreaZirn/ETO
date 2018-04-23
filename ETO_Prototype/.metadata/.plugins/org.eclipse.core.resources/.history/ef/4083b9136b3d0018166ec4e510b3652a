@@ -1,0 +1,264 @@
+/**
+ * Copyright (c) 2000-present Liferay, Inc. All rights reserved.
+ *
+ * This library is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation; either version 2.1 of the License, or (at your option)
+ * any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+ * details.
+ */
+
+package com.liferay.docs.guestbook.service.persistence;
+
+import aQute.bnd.annotation.ProviderType;
+
+import com.liferay.docs.guestbook.model.User;
+
+import com.liferay.osgi.util.ServiceTrackerFactory;
+
+import com.liferay.portal.kernel.dao.orm.DynamicQuery;
+import com.liferay.portal.kernel.service.ServiceContext;
+import com.liferay.portal.kernel.util.OrderByComparator;
+
+import org.osgi.util.tracker.ServiceTracker;
+
+import java.util.List;
+
+/**
+ * The persistence utility for the user service. This utility wraps {@link com.liferay.docs.guestbook.service.persistence.impl.UserPersistenceImpl} and provides direct access to the database for CRUD operations. This utility should only be used by the service layer, as it must operate within a transaction. Never access this utility in a JSP, controller, model, or other front-end class.
+ *
+ * <p>
+ * Caching information and settings can be found in <code>portal.properties</code>
+ * </p>
+ *
+ * @author liferay
+ * @see UserPersistence
+ * @see com.liferay.docs.guestbook.service.persistence.impl.UserPersistenceImpl
+ * @generated
+ */
+@ProviderType
+public class UserUtil {
+	/*
+	 * NOTE FOR DEVELOPERS:
+	 *
+	 * Never modify this class directly. Modify <code>service.xml</code> and rerun ServiceBuilder to regenerate this class.
+	 */
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache()
+	 */
+	public static void clearCache() {
+		getPersistence().clearCache();
+	}
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#clearCache(com.liferay.portal.kernel.model.BaseModel)
+	 */
+	public static void clearCache(User user) {
+		getPersistence().clearCache(user);
+	}
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#countWithDynamicQuery(DynamicQuery)
+	 */
+	public static long countWithDynamicQuery(DynamicQuery dynamicQuery) {
+		return getPersistence().countWithDynamicQuery(dynamicQuery);
+	}
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#findWithDynamicQuery(DynamicQuery)
+	 */
+	public static List<User> findWithDynamicQuery(DynamicQuery dynamicQuery) {
+		return getPersistence().findWithDynamicQuery(dynamicQuery);
+	}
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#findWithDynamicQuery(DynamicQuery, int, int)
+	 */
+	public static List<User> findWithDynamicQuery(DynamicQuery dynamicQuery,
+		int start, int end) {
+		return getPersistence().findWithDynamicQuery(dynamicQuery, start, end);
+	}
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#findWithDynamicQuery(DynamicQuery, int, int, OrderByComparator)
+	 */
+	public static List<User> findWithDynamicQuery(DynamicQuery dynamicQuery,
+		int start, int end, OrderByComparator<User> orderByComparator) {
+		return getPersistence()
+				   .findWithDynamicQuery(dynamicQuery, start, end,
+			orderByComparator);
+	}
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel)
+	 */
+	public static User update(User user) {
+		return getPersistence().update(user);
+	}
+
+	/**
+	 * @see com.liferay.portal.kernel.service.persistence.BasePersistence#update(com.liferay.portal.kernel.model.BaseModel, ServiceContext)
+	 */
+	public static User update(User user, ServiceContext serviceContext) {
+		return getPersistence().update(user, serviceContext);
+	}
+
+	/**
+	* Caches the user in the entity cache if it is enabled.
+	*
+	* @param user the user
+	*/
+	public static void cacheResult(User user) {
+		getPersistence().cacheResult(user);
+	}
+
+	/**
+	* Caches the users in the entity cache if it is enabled.
+	*
+	* @param users the users
+	*/
+	public static void cacheResult(List<User> users) {
+		getPersistence().cacheResult(users);
+	}
+
+	/**
+	* Creates a new user with the primary key. Does not add the user to the database.
+	*
+	* @param userId the primary key for the new user
+	* @return the new user
+	*/
+	public static User create(long userId) {
+		return getPersistence().create(userId);
+	}
+
+	/**
+	* Removes the user with the primary key from the database. Also notifies the appropriate model listeners.
+	*
+	* @param userId the primary key of the user
+	* @return the user that was removed
+	* @throws NoSuchUserException if a user with the primary key could not be found
+	*/
+	public static User remove(long userId)
+		throws com.liferay.docs.guestbook.exception.NoSuchUserException {
+		return getPersistence().remove(userId);
+	}
+
+	public static User updateImpl(User user) {
+		return getPersistence().updateImpl(user);
+	}
+
+	/**
+	* Returns the user with the primary key or throws a {@link NoSuchUserException} if it could not be found.
+	*
+	* @param userId the primary key of the user
+	* @return the user
+	* @throws NoSuchUserException if a user with the primary key could not be found
+	*/
+	public static User findByPrimaryKey(long userId)
+		throws com.liferay.docs.guestbook.exception.NoSuchUserException {
+		return getPersistence().findByPrimaryKey(userId);
+	}
+
+	/**
+	* Returns the user with the primary key or returns <code>null</code> if it could not be found.
+	*
+	* @param userId the primary key of the user
+	* @return the user, or <code>null</code> if a user with the primary key could not be found
+	*/
+	public static User fetchByPrimaryKey(long userId) {
+		return getPersistence().fetchByPrimaryKey(userId);
+	}
+
+	public static java.util.Map<java.io.Serializable, User> fetchByPrimaryKeys(
+		java.util.Set<java.io.Serializable> primaryKeys) {
+		return getPersistence().fetchByPrimaryKeys(primaryKeys);
+	}
+
+	/**
+	* Returns all the users.
+	*
+	* @return the users
+	*/
+	public static List<User> findAll() {
+		return getPersistence().findAll();
+	}
+
+	/**
+	* Returns a range of all the users.
+	*
+	* <p>
+	* Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to {@link QueryUtil#ALL_POS} will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent and pagination is required (<code>start</code> and <code>end</code> are not {@link QueryUtil#ALL_POS}), then the query will include the default ORDER BY logic from {@link UserModelImpl}. If both <code>orderByComparator</code> and pagination are absent, for performance reasons, the query will not have an ORDER BY clause and the returned result set will be sorted on by the primary key in an ascending order.
+	* </p>
+	*
+	* @param start the lower bound of the range of users
+	* @param end the upper bound of the range of users (not inclusive)
+	* @return the range of users
+	*/
+	public static List<User> findAll(int start, int end) {
+		return getPersistence().findAll(start, end);
+	}
+
+	/**
+	* Returns an ordered range of all the users.
+	*
+	* <p>
+	* Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to {@link QueryUtil#ALL_POS} will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent and pagination is required (<code>start</code> and <code>end</code> are not {@link QueryUtil#ALL_POS}), then the query will include the default ORDER BY logic from {@link UserModelImpl}. If both <code>orderByComparator</code> and pagination are absent, for performance reasons, the query will not have an ORDER BY clause and the returned result set will be sorted on by the primary key in an ascending order.
+	* </p>
+	*
+	* @param start the lower bound of the range of users
+	* @param end the upper bound of the range of users (not inclusive)
+	* @param orderByComparator the comparator to order the results by (optionally <code>null</code>)
+	* @return the ordered range of users
+	*/
+	public static List<User> findAll(int start, int end,
+		OrderByComparator<User> orderByComparator) {
+		return getPersistence().findAll(start, end, orderByComparator);
+	}
+
+	/**
+	* Returns an ordered range of all the users.
+	*
+	* <p>
+	* Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to {@link QueryUtil#ALL_POS} will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent and pagination is required (<code>start</code> and <code>end</code> are not {@link QueryUtil#ALL_POS}), then the query will include the default ORDER BY logic from {@link UserModelImpl}. If both <code>orderByComparator</code> and pagination are absent, for performance reasons, the query will not have an ORDER BY clause and the returned result set will be sorted on by the primary key in an ascending order.
+	* </p>
+	*
+	* @param start the lower bound of the range of users
+	* @param end the upper bound of the range of users (not inclusive)
+	* @param orderByComparator the comparator to order the results by (optionally <code>null</code>)
+	* @param retrieveFromCache whether to retrieve from the finder cache
+	* @return the ordered range of users
+	*/
+	public static List<User> findAll(int start, int end,
+		OrderByComparator<User> orderByComparator, boolean retrieveFromCache) {
+		return getPersistence()
+				   .findAll(start, end, orderByComparator, retrieveFromCache);
+	}
+
+	/**
+	* Removes all the users from the database.
+	*/
+	public static void removeAll() {
+		getPersistence().removeAll();
+	}
+
+	/**
+	* Returns the number of users.
+	*
+	* @return the number of users
+	*/
+	public static int countAll() {
+		return getPersistence().countAll();
+	}
+
+	public static UserPersistence getPersistence() {
+		return _serviceTracker.getService();
+	}
+
+	private static ServiceTracker<UserPersistence, UserPersistence> _serviceTracker =
+		ServiceTrackerFactory.open(UserPersistence.class);
+}

@@ -1,0 +1,4 @@
+Bundle-Name: Profile
+Bundle-SymbolicName: com.liferay.docs.profile.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.docs.profile.portlet.constants

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.tasks, .projects {
+	margin-bottom: 20px;
+}
+.activities {
+	margin-bottom: 20px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}

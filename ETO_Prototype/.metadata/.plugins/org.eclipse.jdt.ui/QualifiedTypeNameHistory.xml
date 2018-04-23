@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.model.PortletPreferences"/>
+<fullyQualifiedTypeName name="java.util.logging.Level"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.exception.GuestbookNameException"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.model.User"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.exception.SystemException"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.util.OrderByComparator"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.exception.EntryNameException"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.exception.EntryEmailException"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.exception.EntryMessageException"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.util.Validator"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Reference"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.service.EntryLocalService"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.service.GuestbookLocalService"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.exception.PortalException"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.service.ServiceContext"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.service.ServiceContextFactory"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.servlet.SessionMessages"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.servlet.SessionErrors"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.util.PortalUtil"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.model.Guestbook"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.search.suggest.SuggesterResult.Entry"/>
+<fullyQualifiedTypeName name="com.liferay.docs.guestbook.model.Entry"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+Bundle-Name: MyMessages
+Bundle-SymbolicName: com.liferay.docs.myMessages.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.docs.myMessages.portlet.constants

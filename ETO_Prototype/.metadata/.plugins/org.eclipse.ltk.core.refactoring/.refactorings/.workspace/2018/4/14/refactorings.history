@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Prototype1/bundles/tomcat-8.0.32/webapps/ROOT/WEB-INF/classes/portal-ext.properties&apos;" deleteContents="false" description="Delete resource &apos;Prototype1/bundles/tomcat-8.0.32/webapps/ROOT/WEB-INF/classes/portal-ext.properties&apos;" element1="/Prototype1/bundles/tomcat-8.0.32/webapps/ROOT/WEB-INF/classes/portal-ext.properties" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1522863729080"/>
+</session>

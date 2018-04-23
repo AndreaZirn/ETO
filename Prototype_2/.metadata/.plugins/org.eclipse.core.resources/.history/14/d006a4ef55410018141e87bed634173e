@@ -1,0 +1,108 @@
+<%@ include file="/init.jsp" %>
+
+<div class="projects">
+	<p>
+		<b>Meine Projekte</b>
+	</p>
+	<aui:button-row>
+			<aui:button name="Projekt Müller" type="submit" value="mueller"  />
+			<aui:button name="Projekt Meier" type="button" value="meier" />
+	</aui:button-row>
+	<table style="width:100%">
+  	<tr>
+	    <th>Projekt</th>
+	    <th>aktueller Stand</th> 
+	    <th>Pos. Nr.</th>
+	    <th>verantwortliche Kunde</th>
+	    <th>verantwortlich Morath</th>
+	    <th>Startdatum</th>
+	    <th>Enddatum</th>
+  	</tr>
+  	<tr>
+	    <td>Müller</td>
+	    <td>K4</td> 
+	    <td>20</td>
+	   	<td>Jorgus Papadopulus</td>
+	    <td>Sandro Baumann</td> 
+	    <td>01.03.2017</td>
+	    <td>14.04.2018</td>
+ 	</tr>
+  	<tr>
+	    <td>Müller</td>
+	    <td>K4</td> 
+	    <td>10</td>
+	   	<td>Jorgus Papadopulus</td>
+	    <td>Sandro Baumann</td> 
+	    <td>22.04.2017</td>
+	    <td>14.04.2018</td>
+  	</tr>
+  	<tr>
+	    <td>Meier</td>
+	    <td>K6</td> 
+	    <td>30</td>
+	   	<td>Samuel Schmid</td>
+	    <td>Sandro Baumann</td> 
+	    <td>21.03.2017</td>
+	    <td>14.06.2018</td>
+  	</tr>
+	</table>
+</div>
+
+<div class="tasks">
+	<p>
+		<b>Meine Aufgaben</b>
+	</p>
+	<table style="width:100%">
+  	<tr>
+	    <th>Projekt</th>
+	    <th>K</th> 
+	    <th>Pos. Nr.</th>
+	    <th>Aufgabe</th>
+	    <th>verantwortliche Person</th>
+	    <th>fällig am</th>
+	    <th>Status</th>
+	    <th>weitere Informationen</th>
+  	</tr>
+  	<tr>
+	    <td>Müller</td>
+	    <td>K4</td> 
+	    <td>20</td>
+	   	<td>GK-Typ definieren</td>
+	    <td>Sandro Baumann</td> 
+	    <td>01.03.2017</td>
+	    <td>in Bearbeitung</td>
+	    <td>Kontaktinformationen</td>
+ 	</tr>
+  	<tr>
+	    <td>Müller</td>
+	    <td>K4</td> 
+	    <td>10</td>
+	   	<td>Freigabezeichnung Position 20</td>
+	    <td>Sandro Baumann</td> 
+	    <td>22.04.2018</td>
+	    <td>in Bearbeitung</td>
+	    <td>Kontaktformular</td>
+  	</tr>
+  	<tr>
+	    <td>Meier</td>
+	    <td>K6</td> 
+	    <td>30</td>
+	   	<td>Lieferadresse angeben</td>
+	    <td>Sandro Baumann</td> 
+	    <td>21.03.2017</td>
+	    <td>in Bearbeitung</td>
+	    <td>Adresse Formular</td>
+  	</tr>
+	</table>
+</div>
+
+<div class="activities">
+	<p>
+		<b>Letzte Aktivitäten</b>
+	</p>
+	<ul>
+	  <li>12.02, 13:45: Projekt Müller, P.Müller hat Angebot Dokument V13 hochgeladen.</li>
+	  <li>09.02, 10:00: Projekt Meier, A- Meier hat einen Kommentar in der Produktvorschau geschrieben.</li>
+	  <li>07.02, 09:30: Projekt Müller, P. Müller hat A. Meuer eingeladen.</li>
+	</ul>
+</div>

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.projects {
+	border-style: solid;
+    border-width: 1px;
+}

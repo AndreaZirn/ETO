@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server AGENT_PORT="29998" auto-publish-time="0" developerMode="false" externalProperties="" hostname="localhost" http-port="8080" id="Prototype2" id-set="true" launchSettings="true" memoryArgs="-Xmx1024m" name="Prototype2" password="" runtime-id="Prototype2" server-type="com.liferay.ide.server.portal" server-type-id="com.liferay.ide.server.portal" start-timeout="900" stop-timeout="300" timestamp="18" username="test@liferay.com">
+    <list key="modules"/>
+  </server>
+</servers>

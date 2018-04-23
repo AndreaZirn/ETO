@@ -1,0 +1,4 @@
+Bundle-Name: ourProjects
+Bundle-SymbolicName: com.liferay.docs.ourprojects.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.docs.ourprojects.portlet.constants

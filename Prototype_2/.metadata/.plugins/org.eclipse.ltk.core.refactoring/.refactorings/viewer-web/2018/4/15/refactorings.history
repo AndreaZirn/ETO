@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;js&apos; to &apos;resources&apos;" description="Move &apos;js&apos; to &apos;resources&apos;" destination="src/main/resources/META-INF/resources" element1="js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1523441750875" updateReferences="true"/>&#x0A;&#x0A;</session>

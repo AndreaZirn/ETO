@@ -1,0 +1,12 @@
+<%@ include file="/init.jsp" %>
+
+<header>
+		<b>Projekt Müller</b>
+</header>
+
+<nav>
+	<aui:button-row>
+				<aui:button name="Projekt Müller" type="button" value="Müller"  />
+				<aui:button name="Projekt Meier" type="button" value="Meier" />
+	</aui:button-row>
+</nav>

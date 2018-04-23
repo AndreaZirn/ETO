@@ -1,0 +1,4 @@
+Bundle-Name: viewer-web
+Bundle-SymbolicName: com.liferay.docs.viewer.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.docs.viewer.portlet.constants

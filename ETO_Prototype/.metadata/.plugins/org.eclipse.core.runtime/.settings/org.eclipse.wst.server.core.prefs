@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<runtimes>\n  <runtime id\="Prototype1" id-set\="true" location\="/Users/sgi01610181/Desktop/ETO/ETO_Prototype/Prototype1/bundles" name\="Prototype1" runtime-type-id\="com.liferay.ide.server.portal.runtime" timestamp\="0"/>\n</runtimes>\n

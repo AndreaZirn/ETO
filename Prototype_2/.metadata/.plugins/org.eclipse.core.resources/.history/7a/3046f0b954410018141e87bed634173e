@@ -1,0 +1,28 @@
+<%@ include file="/init.jsp" %>
+
+<div class="projects">
+	<p>
+		<b>Meine Projekte</b>
+	</p>
+	<aui:button-row>
+			<aui:button name="Projekt Müller" type="submit" value="mueller"  />
+			<aui:button name="Projekt Meier" type="button" value="meier" />
+	</aui:button-row>
+</div>
+
+<div class="tasks">
+	<p>
+		<b>Meine Aufgaben</b>
+	</p>
+</div>
+
+<div class="activities">
+	<p>
+		<b>Letzte Aktivitäten</b>
+	</p>
+	<ul>
+	  <li>12.02, 13:45: Projekt Müller, P.Müller hat Angebot Dokument V13 hochgeladen.</li>
+	  <li>09.02, 10:00: Projekt Meier, A- Meier hat einen Kommentar in der Produktvorschau geschrieben</li>
+	  <li>07.02, 09:30: Projekt Müller, P. Müller hat A. Meuer eingeladen.</li>
+	</ul>
+</div>

@@ -1,0 +1,9 @@
+#
+#Fri Apr 20 11:40:42 CEST 2018
+linkedResources=
+managedNatures=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+subprojectPaths=MyMessages\:MyTasks\:Profile\:Settings\:ourProjects\:viewer-web
+derivedResources=.gradle\:build\:MyMessages/build\:MyTasks/build\:Profile/build\:Settings/build\:ourProjects/build\:viewer-web/build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildDir=build

@@ -1,0 +1,58 @@
+<%@ include file="/init.jsp" %>
+<!-- Links -->
+<portlet:renderURL var="project1DashBoardURL">
+    <portlet:param name="mvcPath" value="/project1_dashboard.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="project1OverviewURL">
+    <portlet:param name="mvcPath" value="/project1_overview.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="project1CalendarURL">
+    <portlet:param name="mvcPath" value="/project1_calendar.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="project1ChangesURL">
+    <portlet:param name="mvcPath" value="/project1_changes.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="project1DocumentsURL">
+    <portlet:param name="mvcPath" value="/project1_documents.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="project1TasksURL">
+    <portlet:param name="mvcPath" value="/project1_tasks.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="project1OrganisationURL">
+    <portlet:param name="mvcPath" value="/project1_organisation.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="">
+    <portlet:param name="mvcPath" value="/project1.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="">
+    <portlet:param name="mvcPath" value="/project1.jsp"></portlet:param>
+</portlet:renderURL>
+<portlet:renderURL var="">
+    <portlet:param name="mvcPath" value="/project1.jsp"></portlet:param>
+</portlet:renderURL>
+
+<header>
+		<b>Projekt Müller</b>
+</header>
+
+<nav>
+	<aui:button-row>
+				<aui:button type="button" value="Dashboard"  />
+				<aui:button type="button" value="Projektübersicht" />
+				<aui:button type="button" value="Termine" />
+				<aui:button type="button" value="Änderungen" />
+				<aui:button type="button" value="Dokumente" />
+				<aui:button type="button" value="Aufgaben" />
+				<aui:button type="button" value="Projektorganisation" />
+				<aui:button type="button" value="Finanzen" />
+				<aui:button type="button" value="Nachrichten" />
+				<aui:button type="button" value="Data Mining" />
+	</aui:button-row>
+</nav>
+<section>
+</section>
+<footer>
+	<div>
+	
+	</div>
+</footer>

@@ -1,0 +1,7 @@
+<%@ include file="/init.jsp" %>
+
+<div>
+	<p>
+		<b>Projekt Müller</b>
+	</p>
+</div>
